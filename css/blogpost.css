@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+nav{
+    background-color: #1b1b1b;
+}
+
+.post{
+    padding-top: 8vh;
+}
+
+.post .imgbox{
+    width: 50vw;
+    height: 55vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+}
+
+.post .imgbox img{
+    width: 100%;
+    height: 100%;
+}
+
+.post .post_content{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post_content .main_heading{
+    margin-top: 5vh;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+}
+
+.post_content .status{
+    text-align: left;
+    font-weight: 100;
+    margin-top: 3vh;
+}
+
+.post_content .intro{
+    margin-top: 5vh;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.post_content .main_content{
+    margin-top: 8vh;
+}
+
+.post_content .main_content p{
+    margin-top: 2vh;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.post_content .outro{
+    margin-top: 5vh;
+    font-weight: 700;
+    font-size: 25px;
+}

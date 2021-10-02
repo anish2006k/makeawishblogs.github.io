@@ -1,0 +1,104 @@
+@media screen and (max-width: 850px){
+    nav .logo h2 a{
+        font-size: 30px;
+    }
+    nav ul{
+        flex-direction: column;
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        max-width: 400px;
+        left: -100%;
+        top: 0px;
+        display: block;
+        padding: 40px 0;
+        text-align: center;
+        background: #222;
+        transition: all 0.3s ease;
+    }
+    nav .cross{
+        display: block;
+    }
+    nav .bars{
+        color: #fff;
+        font-size: 20px;
+        display: block;
+    }
+    .banner_content{
+        margin-left: 10.5vw;
+        padding-top: 20vh;
+    }
+    .banner_content h1{
+        letter-spacing: 1px;
+        font-size: 3rem;
+    }
+    .banner_content .quote{
+        width: 80vw;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .card .img{
+        width: 90vw;
+        height: 50vh;
+        text-align: center;
+    }
+    .card .card_content{
+        padding-left: 0px;
+    }
+    .card .card_content h2{
+        width: 80vw;
+        font-size: 1.5rem;
+    }
+    .card .card_content .info span{
+        padding-bottom: 20px;
+    }
+    .post .imgbox{
+        width: 90vw;
+        height: 50vh;
+        text-align: center;
+    }
+    .post .post_content{
+        width: 90vw;
+    }
+    .post_content .main_heading{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width: 320px) {
+    nav .logo h2 a{
+        font-size: 20px;
+    }
+    nav .bars{
+        font-size: 15px;
+    }
+    .banner{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .banner_content h1{
+        letter-spacing: normal;
+        font-size: 2.5rem;
+    }
+    .banner_content p{
+        font-size: 1rem;
+    }
+    .banner_content .quote{
+        width: 90vw;
+    }
+    .card .img{
+        width: 90vw;
+        height: 40vh;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1260px) {
+    .banner_content h1{
+        font-size: 3.5rem;
+    }
+    .card .card_content h2{
+        width: 40vw;
+    }
+}
